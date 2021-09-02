@@ -1,0 +1,100 @@
+body{
+    font-family: 'Lobster Two', cursive;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: large;
+    color: rgb(121, 118, 118);
+}
+
+.name-color{
+    color: orchid;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    
+    
+
+}
+
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightpink, purple);
+    color: white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/lebu5.png);
+    background-repeat: no-repeat;
+}
+#resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightblue, rgb(12, 129, 165));
+    color: white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.dream-big{
+    background-image: url(images/lebu6.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-color{
+    color: steelblue;
+    padding: 2%;
+}
+.num-color{
+    color: crimson;
+}
+.title-color{
+    color: olivedrab;
+}
+
+.experience-area{
+    background-image: url(images/lebu7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 10px 10px 40px rgb(165, 123, 123);
+}
+#web-dev-expe{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#fullstack-expe{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,lightpink);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    
+}
